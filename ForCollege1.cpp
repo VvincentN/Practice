@@ -14,7 +14,7 @@ float calcCir(float diametr) {
 
 int main()
 {
-	system("chcp 1251");
+	system("chcp 1251"); //Переключение кодировки символов в командном интерпретаторе на русскую
 
 	string f1, f2;
 	float a, b, d, r, S1 = 0, S2 = 0;
