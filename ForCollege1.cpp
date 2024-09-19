@@ -18,7 +18,6 @@ int main()
 
 	string f1, f2;
 	float a, b, d, r, S1 = 0, S2 = 0;
-	const float pi = 3.14;
 
 
 	cout << "Введите изначальную форму: ";
