@@ -1,0 +1,37 @@
+#include<iostream>
+#include<string>
+
+int main()
+{
+	/*
+	std::string message;
+	std::string answer = "";
+	int key;
+
+	std::cout << "Enter your message: ";
+	std::getline(std::cin >> std::ws, message);
+	std::cout << "Enter your key: ";
+	std::cin >> key;
+
+	for (int i = 0; i < message.length(); i++) {
+		answer += static_cast<char>((int)message[i] ^ key);
+	}
+	std::cout << "Crypted: " << answer << "\n";
+
+	std::string discript = "";
+	for (int i = 0; i < answer.length(); i++) {
+		discript += static_cast<char>((int)answer[i] ^ key);
+	}
+	std::cout << "Uncrypted: " << discript << "\n";
+	*/
+	
+	std::string message, cipher;
+	std::cout << "Enter your message: ";
+	std::cin >> message;
+	std::cout << "Enter your cipher-word: ";
+	std::cin >> cipher;
+	for (int i = 0; i < message.length() + 1; i++) {
+		std::cout << cipher[i % cipher.length()];
+	}
+	
+}
